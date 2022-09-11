@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="name">Jessica Martinez</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, my name is Jessica.
+        \n\nLord of the Rings type, the Chronicles of Narnia, in general stories where there is adventure and action.
+        \nSo I enjoy them in books, movies, series or anime.
+        \n\nSimply because it transports me to a world where everything is possible.
+        \nAnd I also enjoy music and I like to sing.
+        \nThe genres I consume the most are pop, rock, soundtracks and kpop.
+        \n\nI can say that in general I am open in genres to see or hear but this predominates.
+        \n\nWell, that's it.
+    \n\n</string>
+</resources>
