@@ -59,7 +59,7 @@
             android:fontFamily="@font/roboto"
             android:text="@string/done"
             android:onClick="clickHandlerFunction"
-            />
+            tools:ignore="OnClick" />
 
         <TextView
             android:id="@+id/nickname_text"
