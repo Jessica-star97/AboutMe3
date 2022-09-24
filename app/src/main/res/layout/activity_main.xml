@@ -57,8 +57,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/layout_margin"
             android:fontFamily="@font/roboto"
-            android:text="@string/done"
             android:onClick="clickHandlerFunction"
+            android:text="@string/done"
             tools:ignore="OnClick" />
 
         <TextView
@@ -66,9 +66,12 @@
             style="@style/NameStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text=""
             android:textAlignment="center"
             android:visibility="gone"
-            android:text=""  />
+            android:background="@color/purple_500"
+            android:padding="@dimen/small_padding"
+            />
 
         <ImageView
             android:id="@+id/imageView"
