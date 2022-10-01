@@ -47,7 +47,8 @@
             android:inputType="textPersonName"
             android:minHeight="48dp"
             android:text=""
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            tools:ignore="Autofill" />
 
         <Button
             android:id="@+id/done_button"
@@ -98,6 +99,9 @@
                 android:lineSpacingMultiplier="1.2"
                 android:text="@string/bio" />
         </ScrollView>
+
+        <layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"></layout>
 
 
     </LinearLayout>
