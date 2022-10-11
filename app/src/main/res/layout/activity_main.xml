@@ -19,6 +19,15 @@
         tools:layout_editor_absoluteX="-138dp"
         tools:layout_editor_absoluteY="29dp">
 
+        <layout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            ></layout>
+
+
+
+
+
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
@@ -35,7 +44,9 @@
             android:layout_gravity="center"
             android:text="@string/name"
             android:textAlignment="center"
-            tools:text="Jessica Martinez" />
+            tools:text="Jessica Martinez"
+
+            />
 
         <EditText
             android:id="@+id/nickname_edit"
@@ -100,10 +111,11 @@
                 android:text="@string/bio" />
         </ScrollView>
 
-        <layout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"></layout>
+
+
 
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
